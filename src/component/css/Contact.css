@@ -1,0 +1,83 @@
+/* Contact.css */
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 7rem;
+  }
+  
+  .email {
+    margin-bottom: 40px;
+  }
+  
+  .email-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .email-field p {
+    margin-right: 10px;
+  }
+  
+  .email-field button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .email-field button:hover {
+    background-color: #2980b9;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media a span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s;
+  }
+  
+  .social-media a span:hover {
+    background-color: #aaa;
+  }
+  
+  .github-link {
+    color: #000;
+  }
+  
+  .linkedin-link {
+    color: #0077b5;
+  }
+  
+  .twitter-link {
+    color: #1da1f2;
+  }
+  
+  .inst-link {
+    color: #bc2a8d;
+  }
+  

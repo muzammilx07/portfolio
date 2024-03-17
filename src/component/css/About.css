@@ -1,0 +1,70 @@
+/* About.css */
+
+.main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    margin-top: 7rem;
+  }
+  
+  .description{
+    margin-top: 4rem;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .focus-list {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3{
+    margin: 4rem;
+  }
+  
+  .focus-card {
+    flex-basis: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .focus-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skills-list {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Align cards in the center */
+  }
+  
+  .card {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

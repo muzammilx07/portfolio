@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Project 1",
+      "description": "Description of Project 1",
+      "image": "project1.jpg",
+      "preview-link": "/projects/project1",
+      "github-link": "https://www.github.com/user1"
+    },
+    {
+      "name": "Project 2",
+      "description": "Description of Project 2",
+      "image": "project2.jpg",
+      "preview-link": "/projects/project2",
+      "github-link": "https://www.github.com/user2"
+    },
+    {
+      "name": "Project 3",
+      "description": "Description of Project 3",
+      "image": "project3.jpg",
+      "preview-link": "/projects/project3",
+      "github-link": "https://www.github.com/user3"
+    },
+    {
+      "name": "Project 4",
+      "description": "Description of Project 4",
+      "image": "project4.jpg",
+      "preview-link": "/projects/project4",
+      "github-link": "https://www.github.com/user4"
+    },
+    {
+      "name": "Project 5",
+      "description": "Description of Project 5",
+      "image": "project5.jpg",
+      "preview-link": "/projects/project5",
+      "github-link": "https://www.github.com/user5"
+    }
+  ]
+  

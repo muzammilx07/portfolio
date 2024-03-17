@@ -1,5 +1,42 @@
-*{
-  margin: 0%;
-  padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+}
+
+.side-data {
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: fit-content;
+  margin: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  position: fixed;
+}
+
+.right-data {
+  margin-left: 35%;
+  width: 60%;
+  height: max-content;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+}
+
+
